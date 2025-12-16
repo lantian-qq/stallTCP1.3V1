@@ -73,7 +73,8 @@
 <img width="1365" height="130" alt="image" src="https://github.com/user-attachments/assets/be2ac19f-d3b7-48fa-be03-59014943f0fa" />
 
 > **⚠️ 请在此处填入本文档末尾提供的【WAF 规则表达式代码】** 注意：请将 {你的管理员IP1 你的管理员IP2} 替换为你自己的 IPV4或者节点ipv4/公网ipv6。
-> ```sql
+
+ ```sql
 (ip.geoip.country in {"IR" "KP"})
 or
 (
